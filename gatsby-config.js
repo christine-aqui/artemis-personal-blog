@@ -7,6 +7,8 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE;
 module.exports = {
 	siteMetadata: {
 		siteTitleAlt: `Artemis Blog`,
+		siteTitle: `Artemis Blog`,
+		siteDescription: `blog, web development`,
 	},
 	plugins: [
 		{
