@@ -47,6 +47,13 @@ module.exports = {
 				trackingId: process.env.GOOGLE_ANALYTICS_ID,
 			},
 		},
+		{
+			resolve: `@isamrish/gatsby-plugin-google-adsense`,
+			options: {
+				googleAdClientId: process.env.GOOGLE_ADSENSE_ID,
+				head: true, // Optional
+			},
+		},
 		`gatsby-plugin-sitemap`,
 		{
 			resolve: `gatsby-plugin-manifest`,
