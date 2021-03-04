@@ -10,4 +10,58 @@ slug: '/blog-0'
 ---
 #### Making 2048 using only HTML, CSS and JavaScript.
 
+To get started we need to create three file, `index.html`, `style.css`, `app.js`
 
+
+```html:title=index.html
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>2048: The Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" charset="utf-8"></script>
+  </head>
+  <body>
+		<!--  -->
+    <div class="container">
+      <div class="info">
+        <h1>2048</h1>
+        <div class="score-container">
+          <div class="score-title">score</div>
+          <span id="score">0</span>
+        </div>
+      </div>
+      <span id="result">Join the numbers and get to the <strong>2048</strong> tile!</span>
+      <div class="grid"></div>
+    </div>
+
+  </body>
+</html>
+```
+
+After creating our simple html code, next step would be to build the grid that the game would be played on. Starting with the css.
+
+---
+##### Reference
+javaScript Methods used in this game:
+- querySelector()
+- getElementById()
+- createElement()
+- appendChild()
+- push()
+- Math.floor()
+- Math.random()
+- length
+- innerHTML
+- parseInt()
+- filter()
+- Array()
+- fill()
+- concat()
+- keyCode
+- addEventListener()
+- removeEventListener()
+- setTimeout()
+- clearInterval()
+- setInterval()
